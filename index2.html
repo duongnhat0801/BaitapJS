@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1 id="kq"></h1>
+<input type="text" id="a" onchange="LayDuLieu()">
+<!--button onclick="layDuLieu()">Nhập</button>-->
+<script>
+    //let a = 1;
+    //let b = 2;
+    //let sum = a + b;
+    //alert(sum)
+
+    //let name = 'linh';
+    //let gender = 'nam';
+    //let info = name + " " + gender;
+    //alert(info)
+
+    //Các kiểu xuất dữ liệu trong JS:
+    //alert("Hello");// Hiển thị hộp thoại
+    //document.write("Hello"); //Hiển thị trực tiếp lên web
+    //console.log("Hello"); //Hiển thị trong console > Inspect
+    //document.getElementById('kq').innerHTML="Hello";//Hiển thị tực tiếp lên thẻ HTML
+
+    //Các kiểu nhập dữ liệu vào JS:
+    //let a = prompt("Nhập đi");//Nhập trên hộp thoại
+    //alert(a);
+    //confirm("Are you OK?")
+
+
+    function layDuLieu(){
+        let duLieu = document.getElementById("a").value;
+        alert(duLieu);
+    }
+</script>
+</body>
+</html>
